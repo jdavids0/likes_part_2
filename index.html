@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Part 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page-container">
+        <div id="header">
+            <div class="header-row" id="network">
+                <h1>Network</h1>
+            </div>
+            <div class="header-row" id="feedTitle">
+                <h1>Your Feed</h1>
+            </div>
+        </div>
+        <div id="body">
+            <div id="col-1">
+                <div id="profile">
+                    <img src="./user-circle.png" alt=" user icon" id="userIcon" class="profileInfo">
+                    <a href="" id="addAvatar" class="profileInfo">Add an Avatar</a>
+                    <h1 class="profileInfo" id="jamesDoe">James Doe</h1>
+                </div>
+
+            </div>
+            <div id="col-2">
+                <div class="yourFeed">
+                    <div class="feedTopRow">
+                        <h1>Neil M</h1>
+                        <div class="buttonContainer">
+                            <p id="buttonOne" class="buttonText">9</p>
+                            <button class="likeButton" onclick="increaseLikes1()">Like</button>
+                        </div>
+                    </div>
+                    <div class="feedBottomRow">
+                        <p>I just set up this new discord bot, let me know what you all <a href="">think.</a></p>
+                    </div>
+                </div>
+                <div class="yourFeed">
+                    <div class="feedTopRow">
+                            <h1>Nichole K</h1>
+                        <div class="buttonContainer" id="twelve">
+                            <p id="buttonTwo" class="buttonText">12</p>
+                            <button id="twelve" class="likeButton" onclick="increaseLikes2()">Like</button>
+                        </div>
+                    </div>
+                    <div class="feedBottomRow">
+                        <p>Just finished my <a href="">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="yourFeed">
+                    <div class="feedTopRow">
+                        <h1>Jim R</h1>
+                        <div class="buttonContainer">
+                            <p id="buttonThree" class="buttonText">9</p>
+                            <button class="likeButton" onclick="increaseLikes3()">Like</button>
+                        </div>
+                    </div>
+                    <div class="feedBottomRow">
+                        <p>I can't stop listening to the <a href="">new album</a></p><p>Who else is liking it?</p>
+                    </div>
+                    <script src="./script.js"></script>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
